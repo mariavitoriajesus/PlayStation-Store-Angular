@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 999;
+    background-color: #ffffff;
+    width: 100%;
+    height: 40px;
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
+}
+
+.logo {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.itens {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.itens > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.itens > ul> li {
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.itens > ul> li> a{
+    text-decoration: none;
+    color: #040D12;
+    font-family: 'Dosis', sans-serif;
+    padding: 5px;
+}
+
+.itens > ul> li> a:hover {
+    color: #35155D;
+    font-weight: 600;
+}

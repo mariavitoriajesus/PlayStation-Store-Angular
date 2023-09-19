@@ -1,0 +1,34 @@
+.container-princing{
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #7d7c7c83;
+    color: antiquewhite;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.title{
+    margin-bottom: 3px;
+}
+
+.value{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.console{
+    display: flex;
+    flex-direction: row;
+}
+
+.console > span {
+    font-weight: bolder;
+    color: aqua;
+    margin-right: 10px;
+}
